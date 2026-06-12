@@ -20,6 +20,7 @@ https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pag
 - `index.html`：页面结构与正式文案
 - `styles.css`：视觉样式与响应式布局
 - `script.js`：导航滚动
+- `hero-product-workspace.webp`：第一屏产品/店铺/商业工作场景图
 - `wechat-qr.png`：微信二维码，放在根目录，避免部署后路径丢失
 - `CNAME`：GitHub Pages 自定义域名配置
 
