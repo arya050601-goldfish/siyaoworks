@@ -814,28 +814,6 @@ body.has-open-dialog {
   gap: 22px;
 }
 
-.portrait-card {
-  display: grid;
-  gap: 10px;
-  max-width: 360px;
-  margin: 0 0 12px;
-}
-
-.portrait-card img {
-  width: 100%;
-  aspect-ratio: 4 / 5;
-  border: 1px solid var(--line-dark);
-  object-fit: cover;
-  object-position: 50% 24%;
-  background: #7a7a7a;
-}
-
-.portrait-card figcaption {
-  color: var(--muted);
-  font-size: 13px;
-  font-weight: 800;
-}
-
 .about-copy p {
   margin: 0;
   color: var(--soft-ink);
