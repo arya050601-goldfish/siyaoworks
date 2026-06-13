@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">金鱼 v2 02：赤陶裁章</title>
+  <desc id="desc">像一枚个人印章，鱼形只保留为白色切口。</desc>
+  <rect x="22" y="22" width="84" height="84" rx="18" fill="#9f3b30"/>
+  <path d="M36 64c10-12 28-16 44-7 8 5 13 7 18 7-5 0-10 2-18 7-16 9-34 5-44-7Z" fill="none" stroke="#f7f7f2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M79 57c11-10 19-13 27-10-3 8-9 14-21 17m-6 7c11 10 19 13 27 10-3-8-9-14-21-17" fill="none" stroke="#f7f7f2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="48" cy="61" r="4" fill="#f7f7f2"/>
+</svg>

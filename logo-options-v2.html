@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <!--
+      Huashu-Design v2 assumptions:
+      - 这个标识服务于个人顾问网站，不是儿童品牌、宠物号或餐饮品牌。
+      - “金鱼”应该成为可长期使用的小符号，而不是一张动物插画。
+      - 主要使用场景是 38px 导航栏、favicon、按钮旁的小标和微信名片。
+      - 网站已有色彩约束：纸白、近黑、赤陶红、深绿、少量黄色。
+      - 这轮探索从三条逻辑展开：个人印记 / 路径判断 / 工作台现场。
+    -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>金鱼 logo v2 方案</title>
+    <style>
+      :root {
+        --paper: #f7f7f2;
+        --surface: #ffffff;
+        --warm: #eef2ec;
+        --ink: #171615;
+        --soft: #3d3a36;
+        --muted: #716b64;
+        --line: #dfd8cf;
+        --red: #9f3b30;
+        --green: #254f43;
+        --yellow: #e0b542;
+        color: var(--ink);
+        background: var(--paper);
+        font-family:
+          Aptos, "Noto Sans SC", "Microsoft YaHei", "PingFang SC", system-ui,
+          sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        background:
+          linear-gradient(90deg, rgba(23, 22, 21, 0.035) 1px, transparent 1px),
+          var(--paper);
+        background-size: 84px 84px;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+      }
+
+      main {
+        width: min(1180px, calc(100% - 44px));
+        margin: 0 auto;
+        padding: 58px 0 76px;
+      }
+
+      .intro {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
+        gap: 34px;
+        align-items: end;
+        margin-bottom: 38px;
+      }
+
+      .tag {
+        margin: 0 0 14px;
+        color: var(--red);
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+        overflow-wrap: anywhere;
+      }
+
+      h1 {
+        max-width: 780px;
+        font-family:
+          "Noto Serif SC", "Source Han Serif SC", "Songti SC", SimSun, serif;
+        font-size: clamp(46px, 7vw, 86px);
+        line-height: 1.05;
+        text-wrap: balance;
+      }
+
+      .brief {
+        border-left: 1px solid var(--ink);
+        padding-left: 20px;
+        color: var(--soft);
+        font-size: 16px;
+        font-weight: 650;
+        line-height: 1.7;
+        text-wrap: pretty;
+        word-break: break-word;
+      }
+
+      .logic {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1px;
+        margin-bottom: 1px;
+        border: 1px solid var(--line);
+        background: var(--line);
+      }
+
+      .logic article {
+        min-width: 0;
+        min-height: 138px;
+        background: var(--surface);
+        padding: 20px;
+      }
+
+      .logic span {
+        color: var(--red);
+        font-size: 12px;
+        font-weight: 900;
+      }
+
+      .logic h2 {
+        margin-top: 14px;
+        font-size: 22px;
+        line-height: 1.2;
+      }
+
+      .logic p {
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.65;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 1px;
+        border: 1px solid var(--line);
+        border-top: 0;
+        background: var(--line);
+      }
+
+      .card {
+        display: grid;
+        min-width: 0;
+        min-height: 390px;
+        grid-template-rows: auto auto auto 1fr auto;
+        gap: 16px;
+        background: var(--surface);
+        padding: 24px;
+      }
+
+      .sample {
+        display: flex;
+        align-items: center;
+        gap: 17px;
+      }
+
+      .large {
+        width: 92px;
+        height: 92px;
+      }
+
+      .small {
+        width: 38px;
+        height: 38px;
+        flex: 0 0 auto;
+      }
+
+      .tiny {
+        width: 22px;
+        height: 22px;
+        flex: 0 0 auto;
+      }
+
+      .card h3 {
+        font-size: 19px;
+        line-height: 1.25;
+      }
+
+      .card p {
+        color: var(--muted);
+        font-size: 15px;
+        line-height: 1.7;
+        text-wrap: pretty;
+      }
+
+      .score {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7px;
+      }
+
+      .score span {
+        border: 1px solid var(--line);
+        padding: 4px 7px;
+        color: var(--soft);
+        font-size: 12px;
+        font-weight: 800;
+      }
+
+      .nav-demo {
+        display: inline-flex;
+        width: fit-content;
+        align-items: center;
+        gap: 10px;
+        border-top: 1px solid var(--line);
+        padding-top: 14px;
+        color: var(--green);
+        font-size: 13px;
+        font-weight: 900;
+      }
+
+      .recommend {
+        margin-top: 34px;
+        border: 1px solid var(--ink);
+        background: var(--warm);
+        padding: 24px;
+      }
+
+      .recommend h2 {
+        font-family:
+          "Noto Serif SC", "Source Han Serif SC", "Songti SC", SimSun, serif;
+        font-size: clamp(28px, 4vw, 44px);
+        line-height: 1.12;
+      }
+
+      .recommend p {
+        max-width: 780px;
+        margin-top: 12px;
+        color: var(--soft);
+        font-size: 16px;
+        font-weight: 650;
+        line-height: 1.75;
+      }
+
+      @media (max-width: 1080px) {
+        .grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 760px) {
+        main {
+          width: min(1180px, calc(100% - 28px));
+          padding: 38px 0 58px;
+        }
+
+        .intro,
+        .logic {
+          grid-template-columns: 1fr;
+        }
+
+        .brief {
+          border-left: 0;
+          border-top: 1px solid var(--ink);
+          padding: 16px 0 0;
+        }
+
+        h1 {
+          font-size: clamp(38px, 12vw, 54px);
+          overflow-wrap: anywhere;
+        }
+
+        .grid {
+          grid-template-columns: 1fr;
+        }
+
+        .card {
+          min-height: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="intro" aria-label="方案说明">
+        <div>
+          <p class="tag">Huashu-Design pass 2</p>
+          <h1>金鱼 logo 重新做 10 个方向</h1>
+        </div>
+        <p class="brief">
+          上一轮太像“画了一条小鱼”。这轮改成标识系统：有些只留水纹，有些做成印记，有些把金鱼和路径、工作台、观察判断绑在一起。
+        </p>
+      </section>
+
+      <section class="logic" aria-label="三条设计逻辑">
+        <article>
+          <span>Logic A</span>
+          <h2>个人印记</h2>
+          <p>适合头像、favicon、微信名片。目标是让别人记住“这是金鱼”，而不是记住一条鱼。</p>
+        </article>
+        <article>
+          <span>Logic B</span>
+          <h2>路径判断</h2>
+          <p>把咨询工作里的拆解、回环、找方向放进符号里。更理性，也更像顾问。</p>
+        </article>
+        <article>
+          <span>Logic C</span>
+          <h2>工作台现场</h2>
+          <p>呼应网站里的“产品、页面、供应商、工具摆到桌上”。更贴近你现在的首页叙事。</p>
+        </article>
+      </section>
+
+      <section class="grid" aria-label="金鱼 logo v2 候选">
+        <article class="card">
+          <div class="sample">
+            <img class="large" src="./logo-options-v2/goldfish-v2-01-ripple-dot.svg" alt="01 水面句点" />
+            <img class="small" src="./logo-options-v2/goldfish-v2-01-ripple-dot.svg" alt="" />
+            <img class="tiny" src="./logo-options-v2/goldfish-v2-01-ripple-dot.svg" alt="" />
+          </div>
+          <h3>01 水面句点</h3>
+          <p>不画鱼，只留水纹、眼睛和一笔尾巴。安静，适合你现在这个白底网站。</p>
+          <div class="score"><span>安静</span><span>克制</span><span>记忆点中</span></div>
+          <div class="nav-demo"><img class="small" src="./logo-options-v2/goldfish-v2-01-ripple-dot.svg" alt="" />金鱼</div>
+        </article>
+
+        <article class="card">
+          <div class="sample">
+            <img class="large" src="./logo-options-v2/goldfish-v2-02-red-seal-cut.svg" alt="02 赤陶裁章" />
+            <img class="small" src="./logo-options-v2/goldfish-v2-02-red-seal-cut.svg" alt="" />
+            <img class="tiny" src="./logo-options-v2/goldfish-v2-02-red-seal-cut.svg" alt="" />
+          </div>
+          <h3>02 赤陶裁章</h3>
+          <p>最像个人印记。它不软，也不幼稚；放在名片、页脚、封面上都压得住。</p>
+          <div class="score"><span>强识别</span><span>个人 IP</span><span>可做 favicon</span></div>
+          <div class="nav-demo"><img class="small" src="./logo-options-v2/goldfish-v2-02-red-seal-cut.svg" alt="" />金鱼</div>
+        </article>
+
+        <article class="card">
+          <div class="sample">
+            <img class="large" src="./logo-options-v2/goldfish-v2-03-route-loop.svg" alt="03 路径回环" />
+            <img class="small" src="./logo-options-v2/goldfish-v2-03-route-loop.svg" alt="" />
+            <img class="tiny" src="./logo-options-v2/goldfish-v2-03-route-loop.svg" alt="" />
+          </div>
+          <h3>03 路径回环</h3>
+          <p>把“梳理路径”放进鱼形里。比上一轮更像咨询网站，不像动物头像。</p>
+          <div class="score"><span>顾问感</span><span>路径</span><span>小尺寸一般</span></div>
+          <div class="nav-demo"><img class="small" src="./logo-options-v2/goldfish-v2-03-route-loop.svg" alt="" />金鱼</div>
+        </article>
+
+        <article class="card">
+          <div class="sample">
+            <img class="large" src="./logo-options-v2/goldfish-v2-04-worktable-pin.svg" alt="04 工作台定位" />
+            <img class="small" src="./logo-options-v2/goldfish-v2-04-worktable-pin.svg" alt="" />
+            <img class="tiny" src="./logo-options-v2/goldfish-v2-04-worktable-pin.svg" alt="" />
+          </div>
+          <h3>04 工作台定位</h3>
+          <p>最贴首页那句“先把问题摆到桌上”。如果你想让 logo 带一点方法论，这个方向值得留。</p>
+          <div class="score"><span>现场感</span><span>方法论</span><span>偏复杂</span></div>
+          <div class="nav-demo"><img class="small" src="./logo-options-v2/goldfish-v2-04-worktable-pin.svg" alt="" />金鱼</div>
+        </article>
+
+        <article class="card">
+          <div class="sample">
+            <img class="large" src="./logo-options-v2/goldfish-v2-05-observer-eye.svg" alt="05 观察者鱼眼" />
+            <img class="small" src="./logo-options-v2/goldfish-v2-05-observer-eye.svg" alt="" />
+            <img class="tiny" src="./logo-options-v2/goldfish-v2-05-observer-eye.svg" alt="" />
+          </div>
+          <h3>05 观察者鱼眼</h3>
+          <p>把金鱼的“看”放大。适合强调判断力，但会比其他方案更有视觉冲击。</p>
+          <div class="score"><span>判断力</span><span>强记忆</span><span>更大胆</span></div>
+          <div class="nav-demo"><img class="small" src="./logo-options-v2/goldfish-v2-05-observer-eye.svg" alt="" />金鱼</div>
+        </article>
+
+        <article class="card">
+          <div class="sample">
+            <img class="large" src="./logo-options-v2/goldfish-v2-06-bracket-tail.svg" alt="06 括号鱼尾" />
+            <img class="small" src="./logo-options-v2/goldfish-v2-06-bracket-tail.svg" alt="" />
+            <img class="tiny" src="./logo-options-v2/goldfish-v2-06-bracket-tail.svg" alt="" />
+          </div>
+          <h3>06 括号鱼尾</h3>
+          <p>像对话，也像把一个问题括起来。它没那么像鱼，但更像“咨询关系”。</p>
+          <div class="score"><span>对话</span><span>抽象</span><span>可长期用</span></div>
+          <div class="nav-demo"><img class="small" src="./logo-options-v2/goldfish-v2-06-bracket-tail.svg" alt="" />金鱼</div>
+        </article>
+
+        <article class="card">
+          <div class="sample">
+            <img class="large" src="./logo-options-v2/goldfish-v2-07-gold-radical.svg" alt="07 金字暗尾" />
+            <img class="small" src="./logo-options-v2/goldfish-v2-07-gold-radical.svg" alt="" />
+            <img class="tiny" src="./logo-options-v2/goldfish-v2-07-gold-radical.svg" alt="" />
+          </div>
+          <h3>07 金字暗尾</h3>
+          <p>从“金”字做记号，鱼尾只是暗线。它更像私人章，不像品牌吉祥物。</p>
+          <div class="score"><span>中文记号</span><span>硬朗</span><span>个人章</span></div>
+          <div class="nav-demo"><img class="small" src="./logo-options-v2/goldfish-v2-07-gold-radical.svg" alt="" />金鱼</div>
+        </article>
+
+        <article class="card">
+          <div class="sample">
+            <img class="large" src="./logo-options-v2/goldfish-v2-08-supply-loop.svg" alt="08 供应链回路" />
+            <img class="small" src="./logo-options-v2/goldfish-v2-08-supply-loop.svg" alt="" />
+            <img class="tiny" src="./logo-options-v2/goldfish-v2-08-supply-loop.svg" alt="" />
+          </div>
+          <h3>08 供应链回路</h3>
+          <p>适合你讲产品、供应商、内容、渠道一起看的定位。缺点是偏工具，不够亲近。</p>
+          <div class="score"><span>产品链路</span><span>工具感</span><span>理性</span></div>
+          <div class="nav-demo"><img class="small" src="./logo-options-v2/goldfish-v2-08-supply-loop.svg" alt="" />金鱼</div>
+        </article>
+
+        <article class="card">
+          <div class="sample">
+            <img class="large" src="./logo-options-v2/goldfish-v2-09-negative-bowl.svg" alt="09 留白鱼缸" />
+            <img class="small" src="./logo-options-v2/goldfish-v2-09-negative-bowl.svg" alt="" />
+            <img class="tiny" src="./logo-options-v2/goldfish-v2-09-negative-bowl.svg" alt="" />
+          </div>
+          <h3>09 留白鱼缸</h3>
+          <p>比直接画鱼更安静，也有“金鱼”联想。适合网站，但可能稍微生活方式了一点。</p>
+          <div class="score"><span>温和</span><span>清楚</span><span>偏生活</span></div>
+          <div class="nav-demo"><img class="small" src="./logo-options-v2/goldfish-v2-09-negative-bowl.svg" alt="" />金鱼</div>
+        </article>
+
+        <article class="card">
+          <div class="sample">
+            <img class="large" src="./logo-options-v2/goldfish-v2-10-desktop-glyph.svg" alt="10 桌面鱼符" />
+            <img class="small" src="./logo-options-v2/goldfish-v2-10-desktop-glyph.svg" alt="" />
+            <img class="tiny" src="./logo-options-v2/goldfish-v2-10-desktop-glyph.svg" alt="" />
+          </div>
+          <h3>10 桌面鱼符</h3>
+          <p>把资料、样品、页面和尾鳍叠在一起。很贴咨询工作，但做主 logo 可能信息太多。</p>
+          <div class="score"><span>工作台</span><span>内容密</span><span>适合栏目</span></div>
+          <div class="nav-demo"><img class="small" src="./logo-options-v2/goldfish-v2-10-desktop-glyph.svg" alt="" />金鱼</div>
+        </article>
+      </section>
+
+      <section class="recommend" aria-label="初步推荐">
+        <h2>我的初步判断</h2>
+        <p>
+          如果这套网站继续走克制、真实、个人顾问的方向，我会优先看 02、06、07。02 最像个人 IP，06 最有咨询关系感，07 最像一个能长期用的中文私章。
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

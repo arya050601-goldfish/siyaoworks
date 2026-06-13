@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>金鱼 logo 方案</title>
+    <style>
+      :root {
+        --paper: #f7f7f2;
+        --ink: #171615;
+        --muted: #716b64;
+        --line: #dfd8cf;
+        --red: #9f3b30;
+        --green: #254f43;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family:
+          "Inter", "Noto Sans SC", "Microsoft YaHei", "PingFang SC", system-ui,
+          sans-serif;
+      }
+
+      main {
+        width: min(1180px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 64px 0;
+      }
+
+      .intro {
+        display: grid;
+        gap: 14px;
+        max-width: 780px;
+        margin-bottom: 42px;
+      }
+
+      .intro p,
+      .card p {
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      h1,
+      h2,
+      p {
+        margin: 0;
+      }
+
+      h1 {
+        font-family:
+          "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+        font-size: clamp(44px, 7vw, 86px);
+        line-height: 1.05;
+        text-wrap: balance;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 1px;
+        border: 1px solid var(--line);
+        background: var(--line);
+      }
+
+      .card {
+        display: grid;
+        min-height: 340px;
+        align-content: start;
+        gap: 16px;
+        background: #fff;
+        padding: 24px;
+      }
+
+      .logo-row {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+
+      .logo {
+        width: 86px;
+        height: 86px;
+      }
+
+      .small {
+        width: 34px;
+        height: 34px;
+      }
+
+      h2 {
+        font-size: 18px;
+        line-height: 1.3;
+      }
+
+      .tag {
+        color: var(--red);
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 0.04em;
+      }
+
+      .header-demo {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 6px;
+        border-top: 1px solid var(--line);
+        padding-top: 14px;
+        color: var(--green);
+        font-size: 13px;
+        font-weight: 800;
+      }
+
+      @media (max-width: 980px) {
+        .grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 560px) {
+        main {
+          width: min(1180px, calc(100% - 28px));
+          padding: 38px 0;
+        }
+
+        h1 {
+          font-size: clamp(38px, 12vw, 50px);
+          overflow-wrap: anywhere;
+        }
+
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="intro">
+        <p class="tag">GOLDFISH MARK OPTIONS</p>
+        <h1>金鱼 logo 10 个方向</h1>
+        <p>
+          这些都按网站导航栏的小尺寸来做。不是插画，也不是可爱头像，而是可以长期挂在个人网站上的小标识。
+        </p>
+      </section>
+
+      <section class="grid" aria-label="金鱼 logo 方案列表">
+        <article class="card">
+          <div class="logo-row">
+            <img class="logo" src="./logo-options/goldfish-01-monoline.svg" alt="方案 01 细线游鱼" />
+            <img class="small" src="./logo-options/goldfish-01-monoline.svg" alt="" />
+          </div>
+          <h2>01 细线游鱼</h2>
+          <p>最接近现在网站的克制气质。风险是记忆点没那么强。</p>
+          <div class="header-demo"><img class="small" src="./logo-options/goldfish-01-monoline.svg" alt="" />金鱼</div>
+        </article>
+        <article class="card">
+          <div class="logo-row">
+            <img class="logo" src="./logo-options/goldfish-02-seal.svg" alt="方案 02 朱印金鱼" />
+            <img class="small" src="./logo-options/goldfish-02-seal.svg" alt="" />
+          </div>
+          <h2>02 朱印金鱼</h2>
+          <p>像个人印章，最有“个人 IP”感。适合你想更有辨识度。</p>
+          <div class="header-demo"><img class="small" src="./logo-options/goldfish-02-seal.svg" alt="" />金鱼</div>
+        </article>
+        <article class="card">
+          <div class="logo-row">
+            <img class="logo" src="./logo-options/goldfish-03-geometric.svg" alt="方案 03 几何杯口" />
+            <img class="small" src="./logo-options/goldfish-03-geometric.svg" alt="" />
+          </div>
+          <h2>03 几何杯口</h2>
+          <p>更偏产品、工具和结构感。适合强调你会拆问题。</p>
+          <div class="header-demo"><img class="small" src="./logo-options/goldfish-03-geometric.svg" alt="" />金鱼</div>
+        </article>
+        <article class="card">
+          <div class="logo-row">
+            <img class="logo" src="./logo-options/goldfish-04-wordmark.svg" alt="方案 04 金字鱼尾" />
+            <img class="small" src="./logo-options/goldfish-04-wordmark.svg" alt="" />
+          </div>
+          <h2>04 金字鱼尾</h2>
+          <p>把“金”做进符号里，小尺寸识别强，但会更像中文印记。</p>
+          <div class="header-demo"><img class="small" src="./logo-options/goldfish-04-wordmark.svg" alt="" />金鱼</div>
+        </article>
+        <article class="card">
+          <div class="logo-row">
+            <img class="logo" src="./logo-options/goldfish-05-orbit.svg" alt="方案 05 游动轨迹" />
+            <img class="small" src="./logo-options/goldfish-05-orbit.svg" alt="" />
+          </div>
+          <h2>05 游动轨迹</h2>
+          <p>多一点“路径”和“梳理”的意味，比 01 更有动作感。</p>
+          <div class="header-demo"><img class="small" src="./logo-options/goldfish-05-orbit.svg" alt="" />金鱼</div>
+        </article>
+        <article class="card">
+          <div class="logo-row">
+            <img class="logo" src="./logo-options/goldfish-06-ink.svg" alt="方案 06 水墨金鱼" />
+            <img class="small" src="./logo-options/goldfish-06-ink.svg" alt="" />
+          </div>
+          <h2>06 水墨金鱼</h2>
+          <p>最有人味，像一个手写出来的标。风险是比网站现在更文艺。</p>
+          <div class="header-demo"><img class="small" src="./logo-options/goldfish-06-ink.svg" alt="" />金鱼</div>
+        </article>
+        <article class="card">
+          <div class="logo-row">
+            <img class="logo" src="./logo-options/goldfish-07-compass.svg" alt="方案 07 方向标" />
+            <img class="small" src="./logo-options/goldfish-07-compass.svg" alt="" />
+          </div>
+          <h2>07 方向标</h2>
+          <p>适合“帮项目找方向”的定位，但概念感会稍重。</p>
+          <div class="header-demo"><img class="small" src="./logo-options/goldfish-07-compass.svg" alt="" />金鱼</div>
+        </article>
+        <article class="card">
+          <div class="logo-row">
+            <img class="logo" src="./logo-options/goldfish-08-bowl.svg" alt="方案 08 鱼缸留白" />
+            <img class="small" src="./logo-options/goldfish-08-bowl.svg" alt="" />
+          </div>
+          <h2>08 鱼缸留白</h2>
+          <p>和“金鱼”昵称最直接。风险是有一点生活方式品牌感。</p>
+          <div class="header-demo"><img class="small" src="./logo-options/goldfish-08-bowl.svg" alt="" />金鱼</div>
+        </article>
+        <article class="card">
+          <div class="logo-row">
+            <img class="logo" src="./logo-options/goldfish-09-ribbon.svg" alt="方案 09 丝带金鱼" />
+            <img class="small" src="./logo-options/goldfish-09-ribbon.svg" alt="" />
+          </div>
+          <h2>09 丝带金鱼</h2>
+          <p>更柔和，更适合个人品牌；比 01 更有“游动”的感觉。</p>
+          <div class="header-demo"><img class="small" src="./logo-options/goldfish-09-ribbon.svg" alt="" />金鱼</div>
+        </article>
+        <article class="card">
+          <div class="logo-row">
+            <img class="logo" src="./logo-options/goldfish-10-dot-grid.svg" alt="方案 10 节点金鱼" />
+            <img class="small" src="./logo-options/goldfish-10-dot-grid.svg" alt="" />
+          </div>
+          <h2>10 节点金鱼</h2>
+          <p>偏 AI 和信息整理，和工具属性最贴；风险是没那么温暖。</p>
+          <div class="header-demo"><img class="small" src="./logo-options/goldfish-10-dot-grid.svg" alt="" />金鱼</div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">金鱼 v2 01：水面句点</title>
+  <desc id="desc">用水纹和句点暗示金鱼，不画完整动物。</desc>
+  <rect width="128" height="128" rx="64" fill="#f7f7f2"/>
+  <path d="M28 68c17-18 55-18 72 0" fill="none" stroke="#171615" stroke-width="7" stroke-linecap="round"/>
+  <path d="M40 84c13 10 35 12 50 0" fill="none" stroke="#dfd8cf" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="47" cy="61" r="5" fill="#171615"/>
+  <path d="M92 49c10-8 21-9 27-5-4 8-11 14-23 17" fill="none" stroke="#9f3b30" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

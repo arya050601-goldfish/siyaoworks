@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">金鱼 v2 08：供应链回路</title>
+  <desc id="desc">把供应商、产品、内容和渠道画成一个闭环。</desc>
+  <rect width="128" height="128" rx="64" fill="#f7f7f2"/>
+  <path d="M31 65c0-19 15-34 34-34s34 15 34 34-15 34-34 34" fill="none" stroke="#171615" stroke-width="6" stroke-linecap="round"/>
+  <path d="M65 99c-18 0-33-13-34-31" fill="none" stroke="#254f43" stroke-width="6" stroke-linecap="round"/>
+  <path d="M91 48c11-10 22-12 29-8-4 9-11 15-23 20m-6 21c11 10 22 12 29 8-4-9-11-15-23-20" fill="none" stroke="#9f3b30" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="64" cy="31" r="5" fill="#e0b542"/>
+  <circle cx="31" cy="65" r="5" fill="#171615"/>
+  <circle cx="65" cy="99" r="5" fill="#254f43"/>
+</svg>

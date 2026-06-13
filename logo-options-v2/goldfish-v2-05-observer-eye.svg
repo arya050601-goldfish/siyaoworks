@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">金鱼 v2 05：观察者鱼眼</title>
+  <desc id="desc">把金鱼的眼睛放大成观察和判断的符号。</desc>
+  <rect width="128" height="128" rx="64" fill="#f7f7f2"/>
+  <path d="M24 64c11-18 29-28 50-28s39 10 50 28c-11 18-29 28-50 28S35 82 24 64Z" fill="#ffffff" stroke="#171615" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="72" cy="64" r="13" fill="#171615"/>
+  <circle cx="77" cy="58" r="4" fill="#f7f7f2"/>
+  <path d="M101 48c10-9 18-11 25-8-3 9-9 16-20 22m-5 18c10 9 18 11 25 8-3-9-9-16-20-22" fill="none" stroke="#9f3b30" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M36 64h18" stroke="#e0b542" stroke-width="5" stroke-linecap="round"/>
+</svg>

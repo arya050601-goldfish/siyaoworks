@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">金鱼 logo 03：几何杯口</title>
+  <desc id="desc">几何化金鱼，偏工具感和产品判断感。</desc>
+  <rect width="128" height="128" rx="64" fill="#ffffff"/>
+  <path d="M26 65 54 42h31l18 23-18 23H54L26 65Z" fill="#f7f7f2" stroke="#171615" stroke-width="5" stroke-linejoin="round"/>
+  <path d="m85 42 28-15-8 38 8 38-28-15" fill="none" stroke="#9f3b30" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M54 42c9 12 9 34 0 46" fill="none" stroke="#e0b542" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="42" cy="63" r="4" fill="#171615"/>
+</svg>

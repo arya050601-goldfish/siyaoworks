@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">金鱼 logo 04：金字鱼尾</title>
+  <desc id="desc">把金字和鱼尾结合，识别度更强。</desc>
+  <rect width="128" height="128" rx="64" fill="#f7f7f2"/>
+  <path d="M37 36h42M46 54h24M34 72h50M64 36v56M46 92h36" fill="none" stroke="#171615" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M78 50c14-10 25-11 33-6-5 8-13 14-27 17m-6 17c14 10 25 11 33 6-5-8-13-14-27-17" fill="none" stroke="#9f3b30" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

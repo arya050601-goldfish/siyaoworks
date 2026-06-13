@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">金鱼 logo 08：鱼缸留白</title>
+  <desc id="desc">带鱼缸留白的金鱼，和“金鱼”昵称关联更直接。</desc>
+  <rect width="128" height="128" rx="64" fill="#f7f7f2"/>
+  <path d="M33 43h62c-2 35-14 52-31 52S35 78 33 43Z" fill="#ffffff" stroke="#171615" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M42 63c8-11 23-14 35-6 5 3 8 6 12 6-4 0-7 3-12 6-12 8-27 5-35-6Z" fill="none" stroke="#9f3b30" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M77 57c7-7 14-9 20-7-2 6-7 10-15 13m-5 6c7 7 14 9 20 7-2-6-7-10-15-13" fill="none" stroke="#e0b542" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="51" cy="62" r="3" fill="#171615"/>
+</svg>

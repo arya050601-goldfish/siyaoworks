@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">金鱼 v2 09：留白鱼缸</title>
+  <desc id="desc">用鱼缸轮廓和留白制造更安静的金鱼记忆点。</desc>
+  <rect width="128" height="128" rx="64" fill="#ffffff"/>
+  <path d="M31 42h66M36 42c0 31 14 52 28 52s28-21 28-52" fill="none" stroke="#171615" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M43 70c10-10 25-13 38-5 6 4 11 5 15 5-4 0-9 1-15 5-13 8-28 5-38-5Z" fill="none" stroke="#254f43" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M80 65c10-8 17-10 24-7-3 7-8 12-18 16m-6 1c10 8 17 10 24 7-3-7-8-12-18-16" fill="none" stroke="#9f3b30" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="52" cy="68" r="3.5" fill="#171615"/>
+  <path d="M47 88c11 5 24 5 35 0" stroke="#dfd8cf" stroke-width="5" stroke-linecap="round"/>
+</svg>

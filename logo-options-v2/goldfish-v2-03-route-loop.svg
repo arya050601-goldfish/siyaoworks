@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">金鱼 v2 03：路径回环</title>
+  <desc id="desc">把金鱼抽象成一条被梳理出来的路径。</desc>
+  <rect width="128" height="128" rx="64" fill="#ffffff"/>
+  <path d="M28 72c15-32 58-34 76-8-16 28-60 26-76 8Z" fill="none" stroke="#171615" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M47 62c18-15 38-10 51 2" fill="none" stroke="#e0b542" stroke-width="6" stroke-linecap="round"/>
+  <path d="M87 47c12-10 24-11 31-5-4 9-12 15-25 20m-6 19c12 10 24 11 31 5-4-9-12-15-25-20" fill="none" stroke="#9f3b30" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="37" cy="67" r="4.5" fill="#171615"/>
+  <circle cx="71" cy="55" r="4.5" fill="#254f43"/>
+</svg>

@@ -21,6 +21,12 @@ https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pag
 - `styles.css`：视觉样式与响应式布局
 - `script.js`：导航滚动
 - `hero-product-workspace.webp`：第一屏产品/店铺/商业工作场景图
+- `goldfish-mark.svg`：正式使用的个人 IP「朱印金鱼」标识，也作为 favicon
+- `logo-options.html` / `logo-options/`：金鱼 logo 的 10 个候选方向，当前只做挑选用，未替换正式站点标识
+- `logo-options-v2.html` / `logo-options-v2/`：按 Huashu-Design 流程重做的第二轮金鱼 logo 候选
+- `logo-seal-comparison.html`：上一版「朱印金鱼」和第二轮「赤陶裁章」的同尺寸对比图
+- `siyao-portrait.webp`：关于我区块使用的个人照片压缩版
+- `ccclay-case-hero.webp` / `ccclay-case-use.webp` / `ccclay-case-packaging.webp`：CCCLAY 案例详情图
 - `wechat-qr.png`：微信二维码，放在根目录，避免部署后路径丢失
 - `CNAME`：GitHub Pages 自定义域名配置
 

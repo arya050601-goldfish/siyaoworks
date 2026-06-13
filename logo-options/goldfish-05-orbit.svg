@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">金鱼 logo 05：游动轨迹</title>
+  <desc id="desc">一条带轨迹的金鱼，适合表达梳理路径和把问题拆开。</desc>
+  <rect width="128" height="128" rx="64" fill="#f7f7f2"/>
+  <path d="M24 77c21 22 61 21 82-2" fill="none" stroke="#dfd8cf" stroke-width="6" stroke-linecap="round"/>
+  <path d="M31 56c13-17 35-21 53-8 7 5 11 8 16 8-5 0-9 4-16 9-18 12-40 8-53-9Z" fill="#ffffff" stroke="#171615" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M83 48c10-11 20-14 28-11-3 8-10 15-23 20m-5 8c10 11 20 14 28 11-3-8-10-15-23-20" fill="none" stroke="#254f43" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="43" cy="55" r="3.5" fill="#9f3b30"/>
+</svg>

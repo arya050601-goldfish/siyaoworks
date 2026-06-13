@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">金鱼 v2 10：桌面鱼符</title>
+  <desc id="desc">把资料页、样品和尾鳍合成一个咨询工作台符号。</desc>
+  <rect width="128" height="128" rx="22" fill="#f7f7f2"/>
+  <path d="M28 31h46v28H28zM28 69h28v28H28zM66 69h34v28H66z" fill="#ffffff" stroke="#171615" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M39 45h23M37 83h10M75 83h16" stroke="#dfd8cf" stroke-width="4" stroke-linecap="round"/>
+  <path d="M75 45c12-12 26-15 34-10-5 11-14 18-29 23m-5 12c12 12 26 15 34 10-5-11-14-18-29-23" fill="none" stroke="#9f3b30" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="39" cy="45" r="4" fill="#254f43"/>
+  <path d="M55 59c10 8 21 8 31 0" stroke="#e0b542" stroke-width="5" stroke-linecap="round"/>
+</svg>

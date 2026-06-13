@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">金鱼 v2 07：金字暗尾</title>
+  <desc id="desc">从“金”字里长出鱼尾，更像姓名印记而不是动物图。</desc>
+  <rect width="128" height="128" rx="24" fill="#f7f7f2"/>
+  <path d="M35 39h42M43 59h30M38 79h38M57 35v50M35 86h46" fill="none" stroke="#171615" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M78 43c13-10 24-11 30-6-4 9-11 15-23 20m-7 28c13 10 24 11 30 6-4-9-11-15-23-20" fill="none" stroke="#9f3b30" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M78 64h18" stroke="#254f43" stroke-width="6" stroke-linecap="round"/>
+</svg>

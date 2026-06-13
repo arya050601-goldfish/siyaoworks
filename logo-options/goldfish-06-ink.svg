@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">金鱼 logo 06：水墨金鱼</title>
+  <desc id="desc">偏东方水墨的金鱼，更有人味，但仍然克制。</desc>
+  <rect width="128" height="128" rx="64" fill="#f7f7f2"/>
+  <path d="M28 66c12-18 34-25 55-11 8 5 14 11 19 11-5 0-11 6-19 11-21 14-43 7-55-11Z" fill="#171615"/>
+  <path d="M82 55c12-14 25-18 34-14-3 11-12 19-29 25m-5 11c12 14 25 18 34 14-3-11-12-19-29-25" fill="#9f3b30"/>
+  <circle cx="41" cy="63" r="3.5" fill="#f7f7f2"/>
+  <path d="M52 49c7 8 7 25 0 34" fill="none" stroke="#e0b542" stroke-width="4" stroke-linecap="round"/>
+</svg>

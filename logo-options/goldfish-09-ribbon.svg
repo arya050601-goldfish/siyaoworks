@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">金鱼 logo 09：丝带金鱼</title>
+  <desc id="desc">更柔和的丝带式金鱼，适合个人 IP 而不是公司标。</desc>
+  <rect width="128" height="128" rx="64" fill="#f7f7f2"/>
+  <path d="M24 67c19-27 46-29 68-7 5 5 9 7 14 7-5 0-9 2-14 7-22 22-49 20-68-7Z" fill="none" stroke="#171615" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M89 60c8-19 21-28 31-28-1 14-9 26-26 34m-5 8c8 19 21 28 31 28-1-14-9-26-26-34" fill="none" stroke="#9f3b30" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M47 51c10 8 10 25 0 33" fill="none" stroke="#254f43" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="38" cy="64" r="3.8" fill="#171615"/>
+</svg>
