@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">加盟连锁产品经营系统案例</title>
+  <desc id="desc">A、B、C 三条产品任务轨道汇入年度产品总表和四道验证门。</desc>
+  <rect width="1200" height="630" fill="#f3f0e8"/>
+  <g stroke="#d1cbc0" stroke-width="1" opacity=".7">
+    <path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200M0 540H1200"/>
+    <path d="M90 0V630M180 0V630M270 0V630M360 0V630M450 0V630M540 0V630M630 0V630M720 0V630M810 0V630M900 0V630M990 0V630M1080 0V630"/>
+  </g>
+  <rect x="58" y="52" width="1084" height="526" fill="#fffefb" stroke="#151515" stroke-width="2"/>
+  <rect x="58" y="52" width="1084" height="78" fill="#1d4ed8"/>
+  <text x="90" y="100" fill="#ffffff" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="800">独立方案 · 未实施</text>
+  <text x="1110" y="100" fill="#dfe7ff" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="700" text-anchor="end">近 3000 家加盟门店 / 东方香茶路线</text>
+  <text x="90" y="194" fill="#151515" font-family="SimSun, Songti SC, serif" font-size="48" font-weight="800">产品越多，越不能只问</text>
+  <text x="90" y="252" fill="#c23f35" font-family="SimSun, Songti SC, serif" font-size="54" font-weight="800">下一杯做什么。</text>
+  <g transform="translate(90 314)">
+    <text x="0" y="-28" fill="#6c6861" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="800">年度产品经营路由图</text>
+    <rect x="0" y="0" width="720" height="178" fill="#f3f0e8" stroke="#151515"/>
+    <g font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="800">
+      <circle cx="38" cy="40" r="20" fill="#1d4ed8"/><text x="38" y="46" fill="#fff" text-anchor="middle">A</text>
+      <text x="74" y="46" fill="#151515">战略产品</text>
+      <circle cx="38" cy="90" r="20" fill="#c23f35"/><text x="38" y="96" fill="#fff" text-anchor="middle">B</text>
+      <text x="74" y="96" fill="#151515">高频窗口</text>
+      <circle cx="38" cy="140" r="20" fill="#efb629"/><text x="38" y="146" fill="#151515" text-anchor="middle">C</text>
+      <text x="74" y="146" fill="#151515">全菜单经营</text>
+    </g>
+    <g fill="none" stroke-width="4">
+      <path d="M178 40H600" stroke="#1d4ed8"/>
+      <path d="M178 90H600" stroke="#c23f35"/>
+      <path d="M178 140H600" stroke="#b68408"/>
+    </g>
+    <g fill="#fffefb" stroke-width="3">
+      <g stroke="#1d4ed8"><circle cx="280" cy="40" r="12"/><circle cx="380" cy="40" r="12"/><circle cx="480" cy="40" r="12"/><circle cx="580" cy="40" r="12"/></g>
+      <g stroke="#c23f35"><circle cx="280" cy="90" r="12"/><circle cx="380" cy="90" r="12"/><circle cx="480" cy="90" r="12"/><circle cx="580" cy="90" r="12"/></g>
+      <g stroke="#b68408"><circle cx="280" cy="140" r="12"/><circle cx="380" cy="140" r="12"/><circle cx="480" cy="140" r="12"/><circle cx="580" cy="140" r="12"/></g>
+    </g>
+    <g fill="#6c6861" font-family="Microsoft YaHei, sans-serif" font-size="12" font-weight="800" text-anchor="middle">
+      <text x="280" y="169">概念</text><text x="380" y="169">口味</text><text x="480" y="169">门店</text><text x="580" y="169">市场</text>
+    </g>
+    <path d="M610 90H690" stroke="#151515" stroke-width="2"/>
+    <path d="M680 80L690 90L680 100" fill="none" stroke="#151515" stroke-width="2"/>
+  </g>
+  <g transform="translate(850 314)">
+    <rect width="292" height="178" fill="#151515"/>
+    <text x="24" y="38" fill="#efb629" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="800">一张年度产品总表</text>
+    <text x="24" y="77" fill="#ffffff" font-family="Microsoft YaHei, sans-serif" font-size="22" font-weight="800">角色 / 资源</text>
+    <text x="24" y="111" fill="#ffffff" font-family="Microsoft YaHei, sans-serif" font-size="22" font-weight="800">进度 / 卡点</text>
+    <text x="24" y="145" fill="#ffffff" font-family="Microsoft YaHei, sans-serif" font-size="22" font-weight="800">下一步决定</text>
+  </g>
+  <text x="90" y="548" fill="#6c6861" font-family="Microsoft YaHei, sans-serif" font-size="16" font-weight="700">金鱼 · 产品经营案例</text>
+  <rect x="1092" y="528" width="22" height="22" transform="rotate(45 1103 539)" fill="#c23f35"/>
+</svg>
