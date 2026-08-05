@@ -340,24 +340,30 @@
 
 .case-visual-story {
   padding: clamp(82px, 11vw, 152px) 0;
-  background: var(--ink);
-  color: #ffffff;
+  background:
+    linear-gradient(165deg, rgba(255, 255, 255, 0.5), transparent 34%),
+    #e7e8e4;
+  color: var(--ink);
 }
 
-.case-story-heading {
+.case-visual-story .case-index {
+  color: #6f7d16;
+}
+
+.case-visual-story .case-story-heading {
   max-width: 880px;
-  margin-bottom: clamp(44px, 7vw, 82px);
+  margin-bottom: clamp(48px, 6vw, 72px);
 }
 
-.case-story-heading > p:last-child {
-  color: rgba(255, 255, 255, 0.62);
+.case-visual-story .case-story-heading > p:last-child {
+  color: var(--muted);
 }
 
 .key-screen-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: clamp(16px, 2.6vw, 32px);
-  align-items: start;
+  gap: clamp(86px, 11vw, 144px);
+  max-width: 1040px;
+  margin: 0 auto;
 }
 
 .screen-card,
@@ -365,69 +371,161 @@
   display: block;
 }
 
-.screen-card figure,
+.screen-card {
+  --screen-accent: #81689a;
+  color: var(--ink);
+  scroll-margin-top: 110px;
+}
+
+.screen-card:nth-child(2) {
+  --screen-accent: #748314;
+}
+
+.screen-card:nth-child(3) {
+  --screen-accent: #c65b2c;
+}
+
+.screen-card figure {
+  display: grid;
+  grid-template-areas: "copy artwork";
+  grid-template-columns: minmax(220px, 0.58fr) minmax(0, 580px);
+  gap: clamp(40px, 7vw, 92px);
+  align-items: start;
+  margin: 0;
+  padding-top: clamp(24px, 3vw, 38px);
+  border-top: 1px solid rgba(23, 22, 21, 0.24);
+}
+
+.screen-card:nth-child(2) figure {
+  grid-template-areas: "artwork copy";
+  grid-template-columns: minmax(0, 580px) minmax(220px, 0.58fr);
+}
+
 .screen-gallery figure {
   margin: 0;
 }
 
-.screen-card img,
-.screen-gallery img {
-  width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.26);
-  background: #ffffff;
-  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.2);
-  transition: transform 180ms ease;
-}
-
-.screen-card:hover img,
-.screen-gallery a:hover img {
-  transform: translateY(-4px);
-}
-
 .screen-card figcaption {
+  position: sticky;
+  top: 112px;
+  grid-area: copy;
   display: grid;
-  gap: 6px;
-  padding: 18px 2px 0;
+  gap: 12px;
+  align-content: start;
+  padding: 12px 0 0;
 }
 
-.screen-card figcaption span {
-  color: var(--case-lime);
+.screen-card figcaption::before {
+  content: "";
+  width: 84px;
+  height: 9px;
+  margin-bottom: 14px;
+  border-top: 2px solid var(--screen-accent);
+  border-bottom: 6px solid var(--screen-accent);
+  transform: rotate(-7deg);
+  transform-origin: left center;
+}
+
+.screen-card figcaption > span:first-child {
+  color: var(--screen-accent);
   font-size: 12px;
   font-weight: 900;
+  letter-spacing: 0.04em;
 }
 
 .screen-card figcaption strong {
-  font-size: 17px;
-  line-height: 1.45;
+  max-width: 320px;
+  font-family:
+    "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+  font-size: clamp(28px, 3vw, 42px);
+  line-height: 1.26;
+  letter-spacing: -0.025em;
+}
+
+.screen-open {
+  width: fit-content;
+  margin-top: 10px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid currentColor;
+  color: var(--soft-ink);
+  font-size: 13px !important;
+  font-weight: 750 !important;
+  letter-spacing: 0 !important;
+}
+
+.screen-artwork {
+  grid-area: artwork;
+  overflow: hidden;
+  max-width: 580px;
+  border: 1px solid rgba(23, 22, 21, 0.2);
+  background: #f8f8f5;
+  box-shadow: 14px 14px 0 rgba(23, 22, 21, 0.07);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.screen-artwork img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0;
+  background: #f8f8f5;
+  box-shadow: none;
+}
+
+.screen-card:hover .screen-artwork {
+  transform: translate(3px, -3px);
+  box-shadow: 10px 18px 0 rgba(23, 22, 21, 0.1);
+}
+
+.screen-card:hover .screen-open {
+  color: var(--screen-accent);
 }
 
 .screen-gallery {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: clamp(28px, 4vw, 50px) clamp(16px, 2.6vw, 32px);
   align-items: start;
   margin-top: clamp(64px, 9vw, 108px);
   padding-top: clamp(52px, 7vw, 82px);
-  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  border-top: 1px solid rgba(23, 22, 21, 0.18);
+}
+
+.screen-gallery img {
+  display: block;
+  width: 100%;
+  height: clamp(480px, 48vw, 660px);
+  border: 1px solid rgba(23, 22, 21, 0.18);
+  background: #f8f8f5;
+  object-fit: cover;
+  object-position: top;
+  box-shadow: none;
+  transition: transform 180ms ease;
+}
+
+.screen-gallery a:hover img {
+  transform: translateY(-4px);
 }
 
 .screen-details {
-  margin-top: clamp(56px, 8vw, 92px);
-  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  margin-top: clamp(44px, 6vw, 68px);
+  border-top: 1px solid rgba(23, 22, 21, 0.18);
 }
 
 .screen-details summary {
   width: fit-content;
   margin: 0 auto;
   padding: 22px 4px;
-  color: var(--case-lime);
+  color: #667311;
   font-size: 15px;
   font-weight: 850;
   cursor: pointer;
 }
 
 .screen-details summary:hover {
-  color: #ffffff;
+  color: var(--ink);
 }
 
 .screen-details summary:focus-visible {
@@ -460,12 +558,12 @@
   grid-template-columns: 36px minmax(0, 1fr);
   gap: 10px;
   padding-top: 14px;
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--muted);
   font-size: 14px;
 }
 
 .screen-gallery figcaption strong {
-  color: var(--case-lime);
+  color: #667311;
   font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
 }
 
@@ -662,6 +760,19 @@
   .value-grid article {
     min-height: auto;
   }
+
+  .screen-card figure {
+    grid-template-columns: minmax(180px, 0.48fr) minmax(0, 500px);
+    gap: clamp(28px, 5vw, 46px);
+  }
+
+  .screen-card:nth-child(2) figure {
+    grid-template-columns: minmax(0, 500px) minmax(180px, 0.48fr);
+  }
+
+  .screen-card figcaption strong {
+    font-size: clamp(26px, 4vw, 36px);
+  }
 }
 
 @media (max-width: 700px) {
@@ -711,6 +822,45 @@
     margin-inline: auto;
   }
 
+  .case-visual-story .case-story-heading {
+    margin-bottom: 40px;
+  }
+
+  .key-screen-grid {
+    gap: 72px;
+  }
+
+  .screen-card figure,
+  .screen-card:nth-child(2) figure {
+    grid-template-areas:
+      "copy"
+      "artwork";
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding-top: 28px;
+  }
+
+  .screen-card figcaption {
+    position: static;
+    padding-top: 0;
+  }
+
+  .screen-card figcaption::before {
+    width: 66px;
+    margin-bottom: 8px;
+  }
+
+  .screen-artwork {
+    width: 100%;
+    max-width: 520px;
+    margin-inline: auto;
+    box-shadow: 8px 8px 0 rgba(23, 22, 21, 0.07);
+  }
+
+  .screen-gallery img {
+    height: min(120vw, 560px);
+  }
+
   .case-cta .case-actions {
     width: 100%;
   }
@@ -729,6 +879,7 @@
     transform: none;
   }
 
+  .screen-artwork,
   .screen-card img,
   .screen-gallery img {
     transition: none;
