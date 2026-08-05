@@ -1589,3 +1589,202 @@ body.has-open-dialog {
     animation-iteration-count: 1 !important;
   }
 }
+
+/* 2026-08 conversion-path refinement */
+
+.hero-title span {
+  max-width: 780px;
+  font-size: clamp(56px, 8vw, 104px);
+  line-height: 1.02;
+}
+
+.hero-title em {
+  max-width: 780px;
+  font-size: clamp(28px, 4vw, 50px);
+  line-height: 1.15;
+}
+
+.hero-visual-case {
+  display: block;
+  color: inherit;
+}
+
+.hero-visual-case img {
+  object-position: center;
+}
+
+.snapshot .kicker {
+  margin-bottom: 12px;
+  color: var(--blue);
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.snapshot-title {
+  max-width: 620px;
+  margin: 0;
+  font-family:
+    "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+  font-size: clamp(32px, 4.4vw, 58px);
+  line-height: 1.12;
+  letter-spacing: -0.03em;
+}
+
+.signal-list-problems {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.signal-list-problems span {
+  display: flex;
+  min-height: 64px;
+  align-items: center;
+  border-radius: 0;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.82);
+  line-height: 1.45;
+}
+
+.service-grid-three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.service-grid-three article {
+  min-height: 390px;
+}
+
+.service-result {
+  margin-top: auto !important;
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+  color: var(--ink) !important;
+}
+
+.service-result strong {
+  color: var(--red);
+}
+
+.cooperation-section {
+  border-top: 1px solid var(--line-dark);
+  border-bottom: 1px solid var(--line-dark);
+  background: var(--green);
+  color: #ffffff;
+}
+
+.cooperation-heading h2 {
+  color: #ffffff;
+}
+
+.cooperation-heading .kicker {
+  color: var(--yellow);
+}
+
+.cooperation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  background: rgba(255, 255, 255, 0.36);
+}
+
+.cooperation-grid article {
+  min-height: 270px;
+  padding: clamp(24px, 3.4vw, 40px);
+  background: var(--green);
+}
+
+.cooperation-grid span {
+  color: var(--yellow);
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.cooperation-grid h3 {
+  margin: 24px 0 0;
+  font-size: clamp(23px, 2.4vw, 32px);
+  line-height: 1.28;
+}
+
+.cooperation-grid p {
+  margin: 18px 0 0;
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 16px;
+  line-height: 1.72;
+}
+
+.cooperation-note {
+  max-width: 780px;
+  margin: 28px 0 0;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 15px;
+}
+
+.contact-boundary {
+  font-size: 16px !important;
+}
+
+.wechat-label {
+  color: var(--red) !important;
+  font-size: 12px !important;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.wechat-id {
+  user-select: all;
+}
+
+.wechat-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.wechat-actions .button {
+  width: auto;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.copy-status {
+  min-height: 1.5em;
+  color: var(--green) !important;
+  font-size: 13px !important;
+}
+
+@media (max-width: 960px) {
+  .service-grid-three,
+  .cooperation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-grid-three article,
+  .cooperation-grid article {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-title span {
+    font-size: clamp(50px, 15vw, 68px);
+  }
+
+  .hero-title em {
+    font-size: 27px;
+  }
+
+  .signal-list-problems {
+    grid-template-columns: 1fr;
+  }
+
+  .wechat-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .wechat-actions .button {
+    width: 100%;
+  }
+}

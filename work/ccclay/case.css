@@ -160,6 +160,40 @@
   line-height: 1.48;
 }
 
+.case-feedback-compact {
+  border-bottom: 1px solid var(--line-dark);
+  background: var(--case-lilac);
+}
+
+.trust-strip {
+  display: grid;
+  grid-template-columns: minmax(120px, 0.24fr) minmax(0, 1fr) minmax(240px, 0.5fr);
+  gap: clamp(28px, 5vw, 72px);
+  align-items: start;
+  padding-top: clamp(54px, 7vw, 82px);
+  padding-bottom: clamp(54px, 7vw, 82px);
+}
+
+.trust-strip .case-index {
+  color: var(--ink);
+}
+
+.trust-strip h2 {
+  margin: 0;
+  font-family:
+    "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+  font-size: clamp(28px, 3.7vw, 52px);
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+
+.trust-strip > p:last-child {
+  margin: 0;
+  color: var(--soft-ink);
+  font-size: 16px;
+  line-height: 1.72;
+}
+
 .case-chapter {
   padding: clamp(82px, 11vw, 152px) 0;
   border-bottom: 1px solid var(--line);
@@ -377,6 +411,50 @@
   border-top: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+.screen-details {
+  margin-top: clamp(56px, 8vw, 92px);
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.screen-details summary {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 22px 4px;
+  color: var(--case-lime);
+  font-size: 15px;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.screen-details summary:hover {
+  color: #ffffff;
+}
+
+.screen-details summary:focus-visible {
+  border-radius: 4px;
+  outline: 3px solid var(--case-lime);
+  outline-offset: 5px;
+}
+
+.screen-details[open] summary {
+  margin-bottom: clamp(28px, 4vw, 48px);
+}
+
+.screen-details .summary-open,
+.screen-details[open] .summary-closed {
+  display: none;
+}
+
+.screen-details[open] .summary-open {
+  display: inline;
+}
+
+.screen-details .screen-gallery {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
 .screen-gallery figcaption {
   display: grid;
   grid-template-columns: 36px minmax(0, 1fr);
@@ -489,10 +567,63 @@
   margin: 0;
 }
 
+.case-contact-boundary {
+  max-width: 720px !important;
+  padding-left: 16px;
+  border-left: 3px solid var(--red);
+  color: var(--soft-ink) !important;
+  font-size: 15px !important;
+}
+
+.case-contact-card {
+  display: grid;
+  gap: 14px;
+  align-content: start;
+  padding: clamp(24px, 3.4vw, 38px);
+  border: 1px solid var(--line-dark);
+  background: #ffffff;
+  box-shadow: 12px 12px 0 var(--case-lilac);
+}
+
+.case-contact-card > span {
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+}
+
+.case-contact-card > strong {
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-size: clamp(27px, 3.2vw, 40px);
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+}
+
+.case-contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.case-contact-actions .button {
+  width: auto;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.case-contact-card .copy-status {
+  min-height: 1.5em;
+  margin: 0;
+  color: var(--green);
+  font-size: 13px;
+}
+
 @media (max-width: 960px) {
   .case-hero-grid,
   .case-chapter-grid,
   .feedback-grid,
+  .trust-strip,
   .case-cta-grid {
     grid-template-columns: 1fr;
   }
@@ -535,7 +666,7 @@
 
 @media (max-width: 700px) {
   .case-nav a:first-child {
-    display: none;
+    display: inline;
   }
 
   .case-title {
@@ -581,6 +712,14 @@
   }
 
   .case-cta .case-actions {
+    width: 100%;
+  }
+
+  .case-contact-actions {
+    display: grid;
+  }
+
+  .case-contact-actions .button {
     width: 100%;
   }
 }
