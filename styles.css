@@ -505,8 +505,8 @@ h1 em {
   margin: 0;
   font-family:
     "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
-  font-size: clamp(40px, 5.6vw, 74px);
-  line-height: 1.08;
+  font-size: clamp(36px, 4.6vw, 60px);
+  line-height: 1.14;
   letter-spacing: -0.035em;
 }
 
@@ -588,9 +588,9 @@ h1 em {
   max-width: 650px;
   margin: 0;
   color: var(--ink);
-  font-size: clamp(17px, 1.7vw, 22px);
-  font-weight: 780;
-  line-height: 1.48;
+  font-size: clamp(16px, 1.45vw, 20px);
+  font-weight: 740;
+  line-height: 1.58;
 }
 
 .fault-junction {
@@ -669,8 +669,8 @@ h1 em {
   margin-top: 22px;
   font-family:
     "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
-  font-size: clamp(28px, 3.3vw, 46px);
-  line-height: 1.2;
+  font-size: clamp(26px, 2.7vw, 38px);
+  line-height: 1.26;
   letter-spacing: -0.025em;
 }
 
@@ -1443,7 +1443,8 @@ body.has-open-dialog {
   }
 
   .routing-case-heading h2 {
-    font-size: clamp(38px, 11.5vw, 52px);
+    font-size: clamp(30px, 8.8vw, 38px);
+    line-height: 1.2;
   }
 
   .fault-router {
@@ -1491,7 +1492,7 @@ body.has-open-dialog {
   }
 
   .route-destination {
-    min-height: 480px;
+    min-height: 390px;
     padding: 30px 24px;
   }
 

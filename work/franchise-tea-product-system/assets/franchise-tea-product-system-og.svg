@@ -10,10 +10,10 @@
   <rect x="58" y="52" width="1084" height="78" fill="#1d4ed8"/>
   <text x="90" y="100" fill="#ffffff" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="800">独立方案 · 未实施</text>
   <text x="1110" y="100" fill="#dfe7ff" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="700" text-anchor="end">近 3000 家加盟门店 / 东方香茶路线</text>
-  <text x="90" y="194" fill="#151515" font-family="SimSun, Songti SC, serif" font-size="48" font-weight="800">产品越多，越不能只问</text>
-  <text x="90" y="252" fill="#c23f35" font-family="SimSun, Songti SC, serif" font-size="54" font-weight="800">下一杯做什么。</text>
+  <text x="90" y="194" fill="#151515" font-family="SimSun, Songti SC, serif" font-size="48" font-weight="800">近 3000 家加盟门店，</text>
+  <text x="90" y="252" fill="#c23f35" font-family="SimSun, Songti SC, serif" font-size="54" font-weight="800">产品怎么排？</text>
   <g transform="translate(90 314)">
-    <text x="0" y="-28" fill="#6c6861" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="800">年度产品经营路由图</text>
+    <text x="0" y="-28" fill="#6c6861" font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="800">三类工作，一张年度表</text>
     <rect x="0" y="0" width="720" height="178" fill="#f3f0e8" stroke="#151515"/>
     <g font-family="Microsoft YaHei, sans-serif" font-size="15" font-weight="800">
       <circle cx="38" cy="40" r="20" fill="#1d4ed8"/><text x="38" y="46" fill="#fff" text-anchor="middle">A</text>
