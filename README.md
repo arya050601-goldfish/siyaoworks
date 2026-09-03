@@ -29,10 +29,11 @@
 - `work/ccclay/index.html`：可独立分享的 CCCLAY 无限倾角杯案例页
 - `work/ccclay/case.css`：CCCLAY 案例页专用样式
 - `work/ccclay/assets/`：经公开范围筛选并压缩后的案例主图与详情页切片
-- `work/franchise-tea-product-system/index.html`：可独立分享的加盟食品饮料连锁产品经营案例页；公开身份已隐去，明确标注为未实施的独立方案
+- `work/franchise-tea-product-system/index.html`：可独立分享的加盟食品饮料连锁产品经营案例页；公开身份已隐去，并明确披露不代表企业委托、采纳或经营结果
 - `work/franchise-tea-product-system/case.css`：加盟连锁案例页专用样式与两张响应式机制图
 - `work/franchise-tea-product-system/assets/franchise-tea-product-system-public.pdf`：重新制版的两页脱敏公开方案
 - `work/franchise-tea-product-system/assets/franchise-tea-product-system-og.png`：案例页社交分享图
+- `assets/yongqingfang-storefront.jpg`：广州永庆坊咖啡馆已验收项目的门店实景图
 - `ccclay-case-hero.webp` / `ccclay-case-use.webp` / `ccclay-case-packaging.webp`：旧版 CCCLAY 产品场景图，暂保留用于兼容和回退
 - `wechat-qr.png`：微信二维码，放在根目录，避免部署后路径丢失
 - `CNAME`：GitHub Pages 自定义域名配置
